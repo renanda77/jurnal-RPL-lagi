@@ -23,16 +23,15 @@ public class Jurnal {
         int n = show.nextInt();
         int a = 0 ;
         int b = 1 ;
-        int jumlah=0 ;
+        int sum =0 ;
          
         for(int i = 1; i <=n; i++) {
             System.out.print(b + " ");
             b=b+a ;
             a=b-a ;
-            jumlah = b ;
+            sum = b ;
         }
         jumlah = jumlah + b ;
         System.out.println(jumlah);
-    }
-    
+    }   
 }
